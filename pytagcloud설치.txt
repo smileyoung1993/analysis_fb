@@ -1,0 +1,16 @@
+0. pygame 설치
+   pip install pygame
+
+   simplejson 설치
+   simplejson download
+   python setup.py intall
+
+1. pytagcloud 설치
+
+2.pytagcloud 한글설치
+
+3.  {
+		"name": "Malgun",
+		"ttf": "malgun.ttf",
+		"web": "http://fonts.googleapis.com/css?family=Malgun"
+	},

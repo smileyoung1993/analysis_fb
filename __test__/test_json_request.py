@@ -1,5 +1,4 @@
-
-from analysis_fb.collect.api import json_request as wr
+from collect.api import json_request as wr
 
 # test for web_request
 

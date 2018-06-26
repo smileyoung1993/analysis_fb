@@ -15,10 +15,11 @@ def json_request(url='',
 
 
     # 응답내용을 다 읽는다.
+
         html = resp.read().decode(encoding)
         json_result = json.loads(html)
 
-        #print('%s : success for request[%s]' % (datetime.now(), url))
+        print('%s : success for request[%s]' % (datetime.now(), url))
 
         if callable(success) is False:
             # success = None이 여서 html이 return됨 , 함수인지 아닌지를 판별
